@@ -1,0 +1,91 @@
+	/* reset css */
+body {
+	background-color 	: #CCFFFF;
+	line-height			: 1,5;
+	font-family			: 'Open	Sans', sans-serif;
+	font-size			: 100%;
+}
+#Layout {	
+	width				:980px;
+	margin				:0 auto;
+	box-shadow			:0 0 1em #CCCCCC;
+}
+ /* menu */
+ #menu{
+	width				: 100%;
+	height				: 40px;
+	background-color	: maroon;
+	position			: relative;
+}
+/*pengaturan menu*/
+#menu ul {
+	margin 				: 0;
+	padding 			: 0;
+	list-style 			: none;
+}
+
+#menu ul li {
+	float 				: left;
+}
+
+#menu ul li a {
+	float 				: left;
+	color 				: #fff;
+	padding 			: 12px 20px;
+	text-decoration 	: none;
+	background 			: maroon;
+	border-left 		: 1px solid #3C4042;
+	border-right 		: 1px solid #3C4042;
+	text-shadow 		: 0 -1px 1px rgba(0, 0, 0, 0.6);
+}
+
+#menu ul li a:hover {
+	color 				: white;
+	background 			: #CCFFFF;
+}
+
+#paragraf{
+	padding 			: 5px;
+	width				: 95%;
+	height				: auto;
+	background-color 	: none;
+	margin-top			: 5px;
+	border-image-width 	: 20px;  
+}
+	.gambar1 {
+	width				: 230px;
+	height				: 250px;
+	float				: left;
+	margin				: 10px 5px 5px 10px;
+}
+.shadow {
+	border-image-width	: 100%;
+	margin 				: 0 auto;
+	height 				: 1px;
+	clear 				: both;
+}
+.kotak {
+	width  				: 45%;
+	margin-left 		: 3%;
+	float 				: right;
+}
+.kotak p {
+	font-family 		:'Open	Sans', sans-serif;
+	font-size 			: 0.9em;
+	line-height 		: 1.3em;
+	letter-spacing 		: 0.03em;
+}
+.web, .web2 {
+	font-size 			: 20px;
+	color 				: #000;
+	line-height 		: 2.4em;
+	padding-left 		:52px;
+	margin 				: 10px 0;
+}
+ footer {
+     clear 				:both;
+     text-align 		:center;
+     background-color 	:#1d1d1d;
+     padding 			:20px;
+     color 				:#eee;
+ }
